@@ -14,7 +14,7 @@ export async function POST(request: Request) {
       - you do not ever use lists, tables, or bullet points; instead, you provide a single response
     `,
     messages: convertToCoreMessages(messages),
-    maxToolRoundtrips: 6,
+    maxToolRoundtrips: 4,
     tools: {
       listOrders: {
         description: "View the entire order delivery history and orderId list",
