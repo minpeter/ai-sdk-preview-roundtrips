@@ -17,9 +17,9 @@ export default function Home() {
 
   const suggestedActions = [
     {
-      title: "Where is",
-      label: "my watch?",
-      action: "where is my watch?",
+      title: "Check my",
+      label: "Apple Watch delivery status?",
+      action: "Check my Apple Watch delivery status?",
     },
     {
       title: "What orders",
